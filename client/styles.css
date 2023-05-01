@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Loved+by+the+King&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 35px;
+  position: relative;
+  margin: 40px 0;
+  font-family: 'Loved by the King';
+}
+
+section{
+width: 90%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 15px;
+}
+
+.photo-card {
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px lightgrey;
+}
+
+.photo-card img{
+  position: relative;
+  height: 230px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px lightgrey;
+}
+
+#complimentButton, #fortuneButton{
+  width: 150px; 
+  height: 40px; 
+  padding: 10px 20px;
+  font-size: 11px;
+  border-radius: 15px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 2px 2px 4px lightgrey;
+}
+
+.btns-container {
+  width: 100%; 
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+  
+.btns-container > button {
+  width: 20px;
+}
+
+.photo-rating{
+  color: red;
+}
+
+#quote-container {
+  font-size: 18px;
+  color: #333;
+  margin: 30px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 4px 4px 6px lightgrey;
+  border-radius: 15px;
+  white-space: pre-line;
+}
+   
+.photo img{
+  height: 230px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px lightgrey;
+  margin: 10px;
+} 
+
+.search-result p{
+  font-size: larger;
+  padding: 10px 0 100px 0;
+}
+
+.search-result input{
+  margin: 30px;
+}
